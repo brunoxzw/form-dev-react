@@ -1,0 +1,97 @@
+.f-container {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.f-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.f-container td, th {
+    padding: 14px;
+    text-align: center;
+    transition: filter 0.2s;
+}
+
+.f-container th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: gray;
+    background-color: rgb(250, 250, 250);
+    font-weight: 300;
+}
+
+.f-container td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10%;
+    text-decoration: none;
+    color: #0069b4;
+    font-weight: 700;
+    transition: filter 0.2s;
+}
+
+.add .i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.add:hover {
+    filter: brightness(1.2);
+    text-shadow: 0 0 10px 0 rgba(0, 0, 0, 1);
+}
+
+.add:active {
+    filter: brightness(0.8);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.pagination li {
+    border-radius: 2px;
+    color: #3f3f3f;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+    width: 35px;
+    margin-right: 1px;
+    padding: 3px;
+}
+
+.pagination li:hover {
+    filter: brightness(1.5);
+}
+
+.pagination li a {
+    text-decoration: none;
+    color: #0069b4;
+    align-items: center;
+}
+
+.pagination .active {
+    background-color: #0069b4;
+}
+
+.pagination .active a {
+    color: white;
+}

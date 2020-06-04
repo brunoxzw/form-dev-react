@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "name": "form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "loja": {
+      "type": "string"
+    },
+    "nf": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "decimal"
+    },
+    "vendedor": {
+      "type": "string"
+    },
+    "nCotacao": {
+      "type": "string"
+    },
+    "tpCliente": {
+      "type": "string"
+    },
+    "tpDev": {
+      "type": "string"
+    },
+    "motivoDev": {
+      "type": "string"
+    },
+    "devolvedor": {
+      "type": "string"
+    },
+    "data": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    display: grid;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.header h1 {
+    font-size: larger;
+    color: #0069b4;
+    margin-left: 10px;
+}
+
+.h-container {
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.h-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-icon {
+    font-size: 35px;
+    color: gray;
+}
+
+.a-header {
+    margin-right: 30px;
+    font-size: small;
+    color: silver;
+    transition: color 0.2s ease;
+}
+
+.a-header:hover {
+    color: #0069b4;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    
+}

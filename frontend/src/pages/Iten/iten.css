@@ -1,0 +1,122 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable,
+  #printable * {
+    visibility: visible;
+  }
+  #printable {
+    margin: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}
+
+.imp {
+  position: absolute;
+  top: 95px;
+  right: 10%;
+  justify-content: right;
+}
+
+.i-container {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+h4 {
+  color: #0162a7;
+}
+
+h6 {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: slategray;
+  font-weight: 300;
+}
+
+.Row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Col {
+  margin-bottom: 10px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+}
+
+.ddinfo label ~ label {
+  color: rgb(40, 40, 40);
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.divRow div ~ div {
+  margin-left: 10px;
+}
+
+.divCol label ~ label {
+  color: rgb(40, 40, 40);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+label {
+  font-weight: 300;
+  font-size: 13px;
+  color: slategray;
+}
+
+input {
+  height: 30px;
+  margin-right: 2px;
+}
+
+.divForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+.divForm div ~ div {
+  margin-left: 20px;
+}
+
+.span {
+  height: 25px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  border: 0.5px ridge silver;
+}
+
+.terms {
+  margin-bottom: 10px;
+  background-color: whitesmoke;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.terms h5 {
+  color: gray;
+}
